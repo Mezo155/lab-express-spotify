@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const homeController = require("../controllers/home.controller")
-const artistController = require("../controllers/artirst.controller")
-const albumController = require("../controllers/albun.controller")
+const artistController = require("../controllers/artist.controller")
+const albumController = require("../controllers/album.controllers")
 const tracksController = require("../controllers/traks.controller")
 
 router.get("/", homeController.getHome);
